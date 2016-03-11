@@ -1,0 +1,105 @@
+/* line 2, ../sass/layout.scss */
+section, header, article, nav {
+  display: block;
+}
+
+/* line 6, ../sass/layout.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 10, ../sass/layout.scss */
+h1 {
+  font-size: 200%;
+  font-family: sans-serif;
+}
+
+/* line 14, ../sass/layout.scss */
+h2 {
+  font-size: 150%;
+  font-family: sans-serif;
+}
+
+/* line 18, ../sass/layout.scss */
+p {
+  font-family: sans-serif;
+}
+
+/* line 21, ../sass/layout.scss */
+body {
+  margin: 1em 10%;
+  background-image: url(../images/background.gif);
+  background-attachment: fixed;
+  background-position: top left;
+  background-repeat: repeat-x;
+  max-width: 80em;
+}
+
+/* line 31, ../sass/layout.scss */
+header {
+  border-width: .1em;
+  border-style: solid;
+  border-bottom-width: 0;
+}
+
+/* line 36, ../sass/layout.scss */
+header nav {
+  background-image: url(../images/navbar.gif);
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  border-width: .1em;
+  border-style: solid;
+  border-bottom-width: 0;
+  border-top-width: 0;
+  padding-left: 10%;
+}
+
+/* line 48, ../sass/layout.scss */
+header nav ul {
+  width: 100%;
+  overflow: hidden;
+  border-left-width: .1em;
+  border-left-style: solid;
+}
+
+/* line 58, ../sass/layout.scss */
+header nav li {
+  display: inline;
+  font-family: sans-serif;
+}
+
+/* line 67, ../sass/layout.scss */
+header nav li a {
+  display: block;
+  float: left;
+  padding: .5em 2em;
+  border-right: .1em solid;
+}
+
+/* line 76, ../sass/layout.scss */
+article {
+  border-width: .1em;
+  border-style: solid;
+  border-top-width: 0;
+  padding: 2em 10%;
+  line-height: 1.8em;
+}
+
+/* line 84, ../sass/layout.scss */
+article h2, article p {
+  padding: 20px 0px 0px;
+}
+
+/* line 88, ../sass/layout.scss */
+article img {
+  border-width: .1em;
+  border-style: solid;
+  outline-width: .1em;
+  outline-style: solid;
+}
+
+/* line 96, ../sass/layout.scss */
+header img {
+  height: 220px;
+}

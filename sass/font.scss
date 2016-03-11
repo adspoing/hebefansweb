@@ -1,0 +1,17 @@
+@import "compass/reset";
+@import "compass/css3";
+
+body{
+  .box{
+    display:none;
+  }
+  .render{
+    width:80%;
+    display:inline;
+    margin:100px 0px 0px 100px;
+    span{
+      font-size:70px;
+      font-weight:300;
+    }
+  }
+}
